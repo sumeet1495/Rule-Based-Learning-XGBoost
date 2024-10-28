@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="WEKA GUI" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="weka.gui.GUIChooser" />
+    <module name="MLAssignment2" />
+    <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

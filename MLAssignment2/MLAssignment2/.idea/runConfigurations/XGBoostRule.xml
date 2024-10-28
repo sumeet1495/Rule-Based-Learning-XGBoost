@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="XGBoostRule" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="weka.Run" />
+    <module name="MLAssignment2" />
+    <option name="PROGRAM_PARAMETERS" value="XGBoostTree -t C:\Users\sumee\Downloads\weka-3-8-6\weka-3-8-6\data\cpu.arff" />
+    <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

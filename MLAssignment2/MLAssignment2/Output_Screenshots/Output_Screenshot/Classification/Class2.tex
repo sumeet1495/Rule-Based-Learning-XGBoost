@@ -1,0 +1,48 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixLatex -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 0 -mean-width 3 -stddev-width 2 -sig-width 1 -count-width 0 -print-row-names -enum-col-names"
+Analysing:  measureNumRules
+Datasets:   14
+Resultsets: 2
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       21/10/24, 12:39 pm
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption}
+\footnotesize
+{\centering \begin{tabular}{lrr@{\hspace{0.1cm}}c}
+\\
+\hline
+Dataset & (1)& (2) & \\
+\hline
+balance-scale-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  254.10 & 100.00 & $\bullet$\\
+wisconsin-breast-cancer-weka.filters.unsupervised.attribute.ReplaceMissingValues &  186.08 & 100.00 & $\bullet$\\
+pima-diabetes-weka.filters.unsupervised.attribute.ReplaceMissingValues &  476.49 & 100.00 & $\bullet$\\
+ecoli-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  150.90 & 100.00 & $\bullet$\\
+Glass-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V2-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  195.46 & 100.00 & $\bullet$\\
+ionosphere-weka.filters.unsupervised.attribute.ReplaceMissingValues &  183.23 & 100.00 & $\bullet$\\
+iris-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  110.00 & 100.00 & $\bullet$\\
+optdigits-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V4-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  346.21 & 100.00 & $\bullet$\\
+pendigits-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V3-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  361.83 & 100.00 & $\bullet$\\
+segment-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  167.51 & 100.00 & $\bullet$\\
+sonar-weka.filters.unsupervised.attribute.ReplaceMissingValues &  181.19 & 100.00 & $\bullet$\\
+vehicle-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V3-N-weka.filters.unsupervised.attribute.ReplaceMissingValues &  193.26 & 100.00 & $\bullet$\\
+'vowel-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.Remove-R1,2-weka.filters.unsupervised.attribute.Remove-R1' &  153.06 & 100.00 & $\bullet$\\
+waveform-weka.filters.unsupervised.attribute.MakeIndicator-Clast-V1-N-weka.filters.unsupervised.attribute.ReplaceMissingValues & 1188.81 & 100.00 & $\bullet$\\
+\hline
+\multicolumn{4}{c}{$\circ$, $\bullet$ statistically significant improvement or degradation}\\
+\end{tabular} \footnotesize \par}
+\end{table}
+
+
+\begin{table}[thb]
+\caption{\label{labelname}Table Caption (Key)}
+\scriptsize
+{\centering
+\begin{tabular}{cl}\\
+(1) & meta.XGBoost '-S 1 -I 100 -W trees.XGBoostTree -- -S 1 -colsample-bynode 1.0 -eta 0.3 -gamma 1.0 -lambda 1.0 -max-depth 6 -min-child-weight 1.0 -subsample 0.5' -7904453909409312251 \\
+(2) & meta.XGBoost '-S 1 -I 100 -W rules.XGBoostRule -- -S 1 -colsample-bynode 1.0 -eta 0.3 -gamma 1.0 -lambda 1.0 -max-length 6 -min-child-weight 1.0 -subsample 0.5' -7904453909409312251 \\
+\end{tabular}
+}
+\end{table}
+
